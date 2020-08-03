@@ -1,0 +1,126 @@
+.nav-bar-logo{width:300px;}
+.grid-margin{flex:1;}
+
+.text-muted-out{
+	height:66px;
+	overflow: hidden;
+	transition: height .3s ease;
+}
+.text-muted{
+	
+}
+.readmore-link{cursor: pointer;}
+.case-studies .color-cards .card-contents{padding:0;}
+.case-studies .color-cards .card-contents .card-image img{
+	width:255px;
+	height:255px;
+	object-fit: cover;
+}
+
+.navbar-nav .nav-item{min-width:70px;text-align: center;}
+
+.video-player-mask{
+	width:100vw;
+	height:100vh;
+	background-color:rgba(0,0,0,.3);
+	position:fixed;
+	left:0;
+	top:0;
+	opacity: 0;
+	z-index:-1;
+	transition: opacity .8s ease;
+}
+.video-player-mask video{
+	position:absolute;
+	left:50%;
+	top:50%;
+	transform: translate(-50%,-50%);
+}
+
+.footer-logo{width:200px;}
+.header-small .navbar{padding:0}
+.owl-carousel .owl-item img{
+	width:89px;
+	height:89px;
+	object-fit: cover;
+}
+.owl-item .desc{
+	min-height:98px;
+	display:flex;
+	align-items: center;
+	justify-content: center;
+}
+.navbar .navbar-toggler.close-button{
+	position: relative;
+	left: -50px;
+}
+.svg-close{width:14px;}
+.svg-menu{width:20px;}
+
+
+/* boostrap弹框 */
+.alert{
+	position: fixed;
+	left: 50%;
+	top: 20px;
+	z-index:9998;
+	transform: translateX(-50%);
+	display:none;
+}
+.loading{
+	width:100vw;
+	height:100vh;
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index:9999;
+	background:rgba(0,0,0,.3);
+	color:#409EFF;
+	text-align: center;
+	font-size:20px;
+	padding-top:30px;
+	box-sizing: border-box;
+	display: none;
+}
+
+.b{font-weight:bold!important;}
+#sjh-down{
+	min-width:100px;
+	font-size:16px;
+	color:red;
+	cursor: pointer;
+	position: relative;
+}
+#sjh-down:hover .code{
+	/* opacity: 1; */
+	display:block;
+}
+#sjh-down .code{
+	/* opacity: 0; */
+	display:none;
+	transition: all .3s ease;
+	width:200px;
+	padding:10px;
+	box-sizing: border-box;
+	background:#fff;
+	border-radius: 20px;
+	position: absolute;
+	left:-60px;
+	top:30;
+	box-shadow: 0 0 3px #eee;
+}
+#sjh-down .code img{
+	width:180px;
+	height:180px;
+}
+#sjh-down .code a{
+	display: block;
+	width:100px;
+	line-height:34px;
+	text-align: center;
+	color:#fff;
+	font-size:14px;
+	background:#1998ff;
+	border-radius: 10px;
+	margin:10px auto 0;
+}
