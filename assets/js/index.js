@@ -62,7 +62,7 @@ $(document).ready(()=>{
 		success:res=>{
 			if(res.meta&&res.meta.status==200){
 				$('#sjh-down .code img').attr('src',res.data.image);
-				$('#sjh-down .code a').attr('src',res.data.path);
+				$('#sjh-down .code a').attr('href',res.data.path);
 			}
 		}
 	})
